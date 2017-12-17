@@ -1,0 +1,87 @@
+Skip to content
+ 
+Search…
+All gists
+GitHub
+Sign up for a GitHub account Sign in
+Create a gist now
+Instantly share code, notes, and snippets.
+
+ Star 6  Fork 9 @chhhchhh/.gitignore
+Last active 9 hours ago
+Embed  
+<script src="https://gist.github.com/chhh/4961200.js"></script>
+  Download ZIP
+ Code  Revisions 3  Stars 6  Forks 9
+.gitignore file for IDEA, Eclipse, NetBeans
+Raw
+ .gitignore
+#
+# Project specific excludes
+#
+
+tomcat
+
+#
+# Default excludes
+#
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Maven 
+target/
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+# OS
+.DS_Store
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+Sign up for free to join this conversation on GitHub. Already have an account? Sign in to comment
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
